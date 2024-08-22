@@ -1,0 +1,57 @@
+<!--: Create a registration form using form attributes ,elements and input types.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No. 2</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <!-- Form starts here -->
+    <form action="#" method="post">
+        <!-- Name input -->
+        <label for="name">Enter your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email input -->
+        <label for="email">Enter your Email ID:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Gender selection -->
+        <label for="gender">Select your Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <!-- Date of Birth input -->
+        <label for="dob">Enter your Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Password input -->
+        <label for="password">Enter your Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Confirm Password input -->
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <!-- Terms and Conditions -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms and conditions</label><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; Assignment 02 by Pranav Sherekar. All rights reserved.</p>
+    </footer>
+</body>
+</html>

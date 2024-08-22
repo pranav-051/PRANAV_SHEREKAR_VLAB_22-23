@@ -1,0 +1,129 @@
+<!-- Assignment No. 04 :
+     Create a Resume using CSS and Html. Make use of table, color, font, border and other css elements.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment no. 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .personal-info {
+            margin-bottom: 20px;
+        }
+        
+        .education, .experience, .skills {
+            margin-bottom: 30px;
+        }
+        
+        .education h2, .experience h2, .skills h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .skills li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume">
+        <h1>Pranav Sherekar</h1>
+        <div class="personal-info">
+            <p><strong>Email:</strong> pranavsherekar7@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9096838737</p>
+            <p><strong>Address:</strong> Balaji Nagar, Morshi-444905, Amravati</p>
+        </div>
+        
+        <div class="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Bachelor of Computer Engineering</td>
+                    <td>PVGCOET, Pune </td>
+                    <td>2023-2026</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="experience">
+            <h2>Experience</h2>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Internship </th>
+                </tr>
+                <tr>
+                    <td>weGPAIns: Flutter based mobile app</td>
+                    <td>XYZ. company</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Flutter</li>
+                <li>PHP</li>
+                <li>React</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

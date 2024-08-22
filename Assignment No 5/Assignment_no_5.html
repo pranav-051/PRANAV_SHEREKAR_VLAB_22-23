@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom Styles */
+    /* Add your custom styles here */
+    .video-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+    }
+    .video-thumbnail {
+      width: 100%;
+      height: 110px;
+    }
+    h2{
+        margin-top: 50px;
+    }
+
+
+</style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="https://www.hatchwise.com/wp-content/uploads/2022/10/image-13-1024x277.png" height="30" width="100" alt="Italian Trulli"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><span style="font-weight: 700;">Home<span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span style="font-weight: 700;"> TV Shows </span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><span style="font-weight: 700;">Movies</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="font-weight: 700;">New & Popular</span></a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span style="font-weight: 700;"> My List </span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <!-- Video Template Gallery -->
+    <h2>Continue Watching </h2>
+    <div class="video-gallery">
+      <!-- Video 1 -->
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 1" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+      </div>
+      <!-- Video 2 -->
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 2" class="video-thumbnail">
+        <h5>dolor sit amet.</h5>
+      </div>
+      <!-- Video 3 -->
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem  dolor sit.
+        </h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem ipsum, dolor sit </h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem, ipsum dolor sit amet consectetur </h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem, ipsum dolor.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem, ipsum.
+        </h5>
+      </div>
+    </div>
+
+    
+    <h2>My List  </h2>
+    
+    <div class="video-gallery">
+      
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique!</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem.
+        </h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem, ipsum dolor.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+      </div>
+    </div>
+
+   
+      <h2>Popular on Netflix </h2>
+      <div class="video-gallery">
+  
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem, ipsum.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem, ipsum dolor.</h5>
+      </div>
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class= "video-thumbnail">
+        <h5>Lorem ipsum dolor sit.</h5>
+      </div>
+      
+      <div class="video-item">
+        <img src="https://picsum.photos/200/300" class="video-thumbnail">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+      </div>
+      <var>  <div class="video-item">
+        <img src="https://picsum.photos/200/300" alt="Video 3" class="video-thumbnail">
+        <h5>Lorem, ipsum dolor.</h5>
+      </div>
+    </var>
+      <!-- Add more video items as needed -->
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
